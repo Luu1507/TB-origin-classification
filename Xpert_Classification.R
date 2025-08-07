@@ -2,12 +2,12 @@ rm(list=ls()) #clear environment
 
 
 
-#=============================================import data
+#=============================================Import data
 getwd() #- check working directory
 setwd("C:/Users/27728/Desktop") #- set working directory
 Xpert_data<-read.csv("GeneXpert_unique.csv", sep=",")#- import data
 
-# Load necessary libraries
+#======================================== Load necessary libraries
 library(tokenizers)
 library(tm)
 library(SnowballC)
@@ -442,3 +442,4 @@ print(group_kappa_xpert)
 
 
 #------------------------------------
+
